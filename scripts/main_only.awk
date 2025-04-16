@@ -12,7 +12,9 @@
     # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     # See the License for the specific language governing permissions and
     # limitations under the License.
-    # Filter out everything but main from objdump output.
+
+    # main_only - Filter out everything but main from objdump output.
+    
     while ($2 != "<main>:")
         next
     do {
